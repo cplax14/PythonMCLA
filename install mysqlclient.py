@@ -1,0 +1,1 @@
+pip install --allow-external mysql-connector-python mysql-connector-python
