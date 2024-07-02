@@ -3,10 +3,10 @@ import urllib
 from pprint import pprint
 import MySQLdb
 
-db = MySQLdb.connect(host="cplax14MySQL1.db.10018706.hostedresource.com", # your host, usually localhost
-                     user="cplax14MySQL1", # your username
-                      passwd="MySQL!@#1", # your password
-                      db="cplax14MySQL1") # name of the data base
+db = MySQLdb.connect(host="xxxxx", # your host, usually localhost
+                     user="xxxx", # your username
+                      passwd="xxxx", # your password
+                      db="xxxx") # name of the data base
 
 cur = db.cursor()                      
 
