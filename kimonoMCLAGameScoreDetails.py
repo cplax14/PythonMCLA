@@ -27,7 +27,7 @@ for row in cur.fetchall():
 	try:
 		GameScoreID = row[0]#.replace(" ","_")
 		print row[0]
-		urltoopen = "http://www.kimonolabs.com/api/ondemand/8ql6u7ne?apikey=Saci2RHbszL9wv4xrNraYX6pGnFYOXZf&kimpath2=%s" % (GameScoreID)
+		urltoopen = "http://www.kimonolabs.com/api/ondemand/xxx?apikey=xxx&kimpath2=%s" % (GameScoreID)
 		response = json.load(urllib.urlopen(urltoopen))
 		#pprint (response)
 		results1 = response["results"]
