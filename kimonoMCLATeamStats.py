@@ -1,7 +1,7 @@
 import json
 import urllib
 from pprint import pprint
-response = json.load(urllib.urlopen("https://www.kimonolabs.com/api/alloziy2?apikey=Saci2RHbszL9wv4xrNraYX6pGnFYOXZf"))
+response = json.load(urllib.urlopen("https://www.kimonolabs.com/api/xxx?apikey=xxx"))
 
 #print results.items()
 
