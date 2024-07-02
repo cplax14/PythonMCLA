@@ -22,7 +22,7 @@ for team in cur.fetchall():
 	try:
 		apiteam = team[0]#.replace(" ","_")
 		print team[0]
-		urltoopen = "http://www.kimonolabs.com/api/ondemand/cm7qivrm?apikey=Saci2RHbszL9wv4xrNraYX6pGnFYOXZf&kimpath2=%s" % (apiteam)
+		urltoopen = "http://www.kimonolabs.com/api/ondemand/xxx?apikey=xxx&kimpath2=%s" % (apiteam)
 		response = json.load(urllib.urlopen(urltoopen))
 		#pprint (response)
 		results1 = response["results"]
