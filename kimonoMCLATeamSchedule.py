@@ -19,7 +19,7 @@ cur.execute(sqlstr)
 for team in cur.fetchall():
 	apiteam = team[0]
 	#print team[0]
-	urltoopen = "http://www.kimonolabs.com/api/ondemand/dtpp5fk8?apikey=Saci2RHbszL9wv4xrNraYX6pGnFYOXZf&kimpath2=%s" % (apiteam)
+	urltoopen = "http://www.kimonolabs.com/api/ondemand/xxx?apikey=xxx&kimpath2=%s" % (apiteam)
 	response = json.load(urllib.urlopen(urltoopen))
 	results1 = response["results"]
 	results2 = results1["collection1"]
