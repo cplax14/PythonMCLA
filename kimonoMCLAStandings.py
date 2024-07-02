@@ -12,7 +12,7 @@ db = MySQLdb.connect(host="xxxxx", # your host, usually localhost
 #  you execute all the queries you need
 cur = db.cursor() 
 
-response = json.load(urllib.urlopen("https://www.kimonolabs.com/api/a0t3sjho?apikey=Saci2RHbszL9wv4xrNraYX6pGnFYOXZf"))
+response = json.load(urllib.urlopen("http://www.kimonolabs.com/api/ondemand/xxx?apikey=xxx"))
 
 results1 = response["results"]
 results2 = results1["collection1"]
